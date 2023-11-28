@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-color: #ca4305; */
+    background-image: url(https://img.freepik.com/free-vector/circles-background-dark-tones_60389-166.jpg);
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+}
+
+.box{
+    background: rgb(179, 169, 171);
+    padding-top: 30px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.box h2{
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 26px;
+    color: rgb(19, 0, 128);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+}
+
+input{
+    padding: 20px;
+    user-select: none;
+    height: 50px;
+    width: 350px;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    font-size: 22px;
+}
+
+input::placeholder{
+    font-size: 23px;
+}
+
+#button{
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-top: 40px;
+    border: none;
+    width: 155px;
+    height: 50px;
+    text-align: center;
+    background-color: rgb(42, 17, 182);
+    text-align: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+#button:hover{
+    color: #fff;
+    background: black;
+    transition: 0.5s ease-in-out;
+}
+
+.btn2{
+    margin-left: 35px;
+}
+
